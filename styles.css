@@ -24,6 +24,10 @@ ul {
     gap: 10px;
 }
 
+.align-right {
+margin-left:auto;
+}
+
 li {
     cursor: pointer;
 }
@@ -40,8 +44,35 @@ h1 {
 
 .item-img {
     width: 100%;
+    display: block;
 }
 
 .caption {
     margin: 0 25px;
+}
+
+
+.item {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.img-banner {
+   position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #cd6858;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+button {
+    border: none;
+    background-color: #cd6858;
+    color: whitesmoke;
+    padding: 10px 15px;
+    font-weight: 700;
+    cursor: pointer;
 }
